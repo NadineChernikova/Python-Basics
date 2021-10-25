@@ -27,7 +27,7 @@ print('Name_type:', name_type)
 # int(string), float(string) - приведение строки к числу
 
 name = 'Nadine'
-age = 35
+age = 20
 print(name + ' ' + str(age))  # конкатенация строк
 
 bool_type_true = True
