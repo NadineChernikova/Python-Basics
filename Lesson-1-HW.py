@@ -32,7 +32,7 @@ dictVar = {"dict_id": 1,
 varStorage = [stringVar, intVar, floatVar, byteVar, listVar, tupleVar, setVar, frozensetVar, dictVar]
 
 for i in varStorage:
-    print(i, "- ", type(i))
+    print(type(i), ":", i)
 
 # 11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
 stringOne = "First"
