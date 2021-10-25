@@ -26,8 +26,8 @@ print('Name_type:', name_type)
 # str(int) - приведение числа к строке
 # int(string), float(string) - приведение строки к числу
 
-name = 'Nadine'
-age = 20
+name = 'Tim'
+age = 14
 print(name + ' ' + str(age))  # конкатенация строк
 
 bool_type_true = True
@@ -47,4 +47,4 @@ dict_type = {'key1': 12,
                             'in_2': 'Nadine'}}
 print(dict_type['key1'])  # выводит элемент словаря по ключу
 print(dict_type['inner_json']['in_2'])
-# ====================================================================
+
