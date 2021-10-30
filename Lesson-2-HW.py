@@ -122,11 +122,11 @@ print("55. Boolean Multiplication result =", boolMulti)
 # boolDivision = boolT / boolF
 #  57. Вывести boolDivision = boolT / boolF в консоль. (Получить ошибку)
 # print("57. Boolean Division result =", boolDivision)
-#  58. Создать переменную bool_1int и присвоить явное приведение boolT к int
-bool_1int = int(boolT)
-#  59. Вывести bool_1int в консоль.
-print("59. True-to-Int = ", bool_1int)
-#  60. Создать переменную bool_2int и присвоить явное приведение boolF к int
-bool_2int = int(boolF)
-#  61. Вывести bool_2int в консоль.
-print("61. False-to-Int = ", bool_2int)
+#  58. Создать переменную bool1_int и присвоить явное приведение boolT к int
+bool1_int = int(boolT)
+#  59. Вывести bool1_int в консоль.
+print("59. True-to-Int = ", bool1_int)
+#  60. Создать переменную bool2_int и присвоить явное приведение boolF к int
+bool2_int = int(boolF)
+#  61. Вывести bool2_int в консоль.
+print("61. False-to-Int = ", bool2_int)
