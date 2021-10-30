@@ -12,10 +12,10 @@ result = b // a
 result = b % a
 print("Result =", result, type(result))
 
-if result == 0:
-    print("Even")
+if a % 2 == 0:
+    print('Even')
 else:
-    print("Odd")
+    print('Odd')
 
 print("Result =", result, type(result))
 
