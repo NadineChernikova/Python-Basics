@@ -9,7 +9,7 @@ result_sum = int1 + int2
 #  4. Вывести result_sum в консоль.
 print("4. Addition result =", result_sum)
 #  5. Создать переменную result_subtr в которой вы вычитаете большую по значению переменную из меньшей по значению.
-result_subtr = int1 - int2
+result_subtr = int2 - int1
 #  6. Вывести result_subtr в консоль.
 print("6. Subtraction result =", result_subtr)
 #  7. Создать переменную result_multi в которой вы умножаете int1 на int2.
