@@ -119,9 +119,9 @@ boolMulti = boolT * boolF
 #  55. Вывести boolMulti в консоль.
 print("55. Boolean Multiplication result =", boolMulti)
 #  56. Создать переменную boolDivision и присвоить деление boolT и boolF
-# boolDivision = boolT / boolF
+boolDivision = boolT / boolF
 #  57. Вывести boolDivision = boolT / boolF в консоль. (Получить ошибку)
-# print("57. Boolean Division result =", boolDivision)
+print("57. Boolean Division result =", boolDivision)
 #  58. Создать переменную bool1_int и присвоить явное приведение boolT к int
 bool1_int = int(boolT)
 #  59. Вывести bool1_int в консоль.
