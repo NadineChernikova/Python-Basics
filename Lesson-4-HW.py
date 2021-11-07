@@ -57,7 +57,6 @@ for item in range(0, range_count+1):            # Сделать цикл for c 
                 inner_count = inner_item                #  то в inner_count присвоить inner_item.
         print("-- inner_count =", inner_count)   #  - За пределами тела предыдущего цикла вывести в консоль (‘-- inner_count =’, inner_count)
 
-
 for item in range(0, 20):           # Сделать цикл for c переменной item, который будет работать пока счётчик range досчитает от 0 до 20
     print("Step =", item)           # 13.1 Вывести в консоль (‘Step =’, item)
     if 7 < item < 12:               # 13.2 Сделать if с условием, если item больше 7 и item меньше 12.
