@@ -21,12 +21,15 @@ usd_rub_rate = 71.88
 byn_item = "BYN"
 usd_byn_rate = 2.46
 #
+
+
 def is_number(str):
     try:
         float(str)
         return True
     except ValueError:
         return False
+
 # ==================================================================================
 
 #  Currency_Convertor
@@ -47,6 +50,7 @@ def is_number(str):
 #  31.6 Сделать elif с остальными валютами
 # …
 #  31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknown currency”)
+
 
 currency_convertor = item_2
 
