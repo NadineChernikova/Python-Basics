@@ -149,5 +149,6 @@ max_digits1 = max(digits1)
 print("min-digit = ", min_digits1)
 print("max-digit = ", max_digits1)
 
-# ==========================
-ii = random.sample(range(1, 100))
+# ========================== генерация списка случайных уникальных чисел ((от, до), кол-во)
+ii = random.sample(range(1, 100), 10)
+print(ii)
