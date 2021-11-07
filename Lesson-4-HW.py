@@ -49,13 +49,13 @@ for item in range(0, 30):       # Сделать цикл for c переменн
 for item in range(0, range_count+1):            # Сделать цикл for c переменной item, который будет работать пока счётчик range досчитает от 0 до range_count +1
     print("Step =", item)                       # 12.1 Вывести в консоль (‘Step =’, item)
     if item == 7:                               # 12.2 Сделать if с условием, если item равен  7.
-        inner_count = 0                         #   - В теле if создать переменную inner_count равную 0
-        print("-- inner_count", inner_count)    #   - В теле if вывести в консоль (‘-- inner_count =’, inner_count)
-        for inner_item in range(0, item):       #   - В теле if сделать ещё одни цикл for с переменной inner_item, который будет работать пока счётчик range досчитает от 0 до item.
+        inner_count = 0                         #  - В теле if создать переменную inner_count равную 0
+        print("-- inner_count", inner_count)    #  - В теле if вывести в консоль (‘-- inner_count =’, inner_count)
+        for inner_item in range(0, item):       #  - В теле if сделать ещё одни цикл for с переменной inner_item, работающий пока счётчик range досчитает от 0 до item.
             print("-------- Inner_Step =", inner_item)  #  Тело внутреннего цикла For: -- Вывести в консоль (‘-------- Inner_Step =’, inner_item)
             if inner_item == 5:                         #  -- Сделать if если inner_item равен 5,
-                inner_count = inner_item                #   то в inner_count присвоить inner_item.
-        print("-- inner_count =", inner_count)  # 	- За пределами тела предыдущего цикла вывести в консоль (‘-- inner_count =’, inner_count)
+                inner_count = inner_item                #  то в inner_count присвоить inner_item.
+        print("-- inner_count =", inner_count)   #  - За пределами тела предыдущего цикла вывести в консоль (‘-- inner_count =’, inner_count)
 
 
 for item in range(0, 20):           # Сделать цикл for c переменной item, который будет работать пока счётчик range досчитает от 0 до 20
