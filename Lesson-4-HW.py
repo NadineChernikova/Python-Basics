@@ -63,3 +63,5 @@ for item in range(0, 20):           # Сделать цикл for c переме
         print("If_item =", item)    # 	- В теле if вывести (‘If_item =’, item)
         continue                    # 	- В теле if поставить continue
 print("End_iteration =", item)      # 13.3 Выйти из if. Вывести в консоль (‘End_iteration =’, item)
+
+
