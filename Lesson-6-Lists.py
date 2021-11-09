@@ -21,7 +21,7 @@ print(list_in_item_from_right)
 
 # ========== генерация списков
 gen_list = [7] * 6
-print(gen_list)
+print("gen_list =", gen_list)
 
 range1_list = list(range(20))  # генерирует последовательный список
 range2_list = list(range(10, 20))  # генерирует последовательный список от начала
