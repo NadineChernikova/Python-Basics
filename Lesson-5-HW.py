@@ -1,8 +1,10 @@
 import random
-# Python HW 5 Functions, Lists
-#  - Любой начальный список минимум 70 элементов.(Есть задания где можно меньше, по усмотрению)
-#  - Все результаты выводить в консоль.
-#
+"""
+Python HW 5 Functions, Lists
+ - Любой начальный список минимум 70 элементов.(Есть задания где можно меньше, по усмотрению)
+ - Все результаты выводить в консоль.
+"""
+
 # 1. Написать скрипт, который в создаст список целых чисел.
 list1 = list(range(72))
 print("1. =", list1, len(list1))
@@ -50,6 +52,7 @@ print("8. =", list8, len(list8))
 # 9. Написать функцию, которая, получив на вход любой из выше созданных списков, разобьёт его на списки по 5 элементов.
 list9 = []
 
+
 def func9(l):
     temp_list = []
     count = 0
@@ -65,7 +68,6 @@ def func9(l):
 
 
 func9(list8)
-
 print("9.1 =", list9, len(list9))
 
 
@@ -92,8 +94,8 @@ def even_odd(n):
 
 even_odd(random.sample(range(1, 100), 70))
 
-print("10.even =", list10_even, len(list10_even))
-print("10.odd  =", list10_odd, len(list10_odd))
+print("10.even =", list10_even)
+print("10.odd  =", list10_odd)
 
 
 def func10(n):
@@ -161,5 +163,5 @@ def func13(k):
 
 func13(stars_5)
 
-print("******************")
+
 
