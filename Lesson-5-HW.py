@@ -110,10 +110,9 @@ print("10-odd  =", odd)
 
 # 11. Написать скрипт, который сгенерирует список под названием 5_stars из списков по 5 элементов целых чисел.
 stars_5 = list()
-
 count = 0
 while count < 10:
-    stars_5_item = list(random.sample(range(1, 40), 5))
+    stars_5_item = list(random.sample(range(0, 40), 5))
     stars_5.append(stars_5_item)
     count += 1
 
@@ -121,18 +120,22 @@ print("11. = ", stars_5)
 
 # 12. Написать скрипт, который выведет список из сумм каждого внутреннего списка из  5_stars
 sum_5 = list()
-
 item = 0
 while item < len(stars_5):
     list_item = sum(stars_5[item])
     sum_5.append(list_item)
     item += 1
 
-print("12. = ", sum_5)
+print("12.1 = ", sum_5)
 
-# 13. Написать функцию которая на вход получает список 5_stars, а вернёт 2 списка.
-# В одном списке внутренние списки из 5_stars сумма чисел которых >= 100, а другой сумма чисел которых < 100.
-# Если какого-то списка не получится, то вместо него вернуть текст “No lists”
+sum_stars = list(map(sum, stars_5))
+print("12.2 = ", sum_stars)
+
+"""
+13. Написать функцию которая на вход получает список 5_stars, а вернёт 2 списка.
+В одном списке внутренние списки из 5_stars сумма чисел которых >= 100, а другой сумма чисел которых < 100.
+Если какого-то списка не получится, то вместо него вернуть текст “No lists”
+"""
 list101 = []
 list99 = []
 
@@ -145,14 +148,18 @@ def func13(k):
             list101.append(list_item)
         elif list_item < 100:
             list99.append(list_item)
-        else:
-            print("No lists")
         item += 1
+    if len(list101) != 0:
+        print("13.>100 =", list101)
+    else:
+        print("13. No lists")
+    if len(list99) != 0:
+        print("13.<100 =", list99)
+    else:
+        print("13. No lists")
 
 
 func13(stars_5)
 
-print("13.>100 =", list101)
-print("13.<100 =", list99)
 print("******************")
 
