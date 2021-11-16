@@ -18,7 +18,7 @@ users_dict = [
 
 with open(csv_file_name, "w") as cf:
     columns = ["name", "age"]
-    writer = csv.DictWriter(cf, fieldnames=columns)
+    writer = csv.DictWriter(cf, lineterminator='\n', fieldnames=columns)
     writer.writeheader()
 
     # writer.writerows(users_list)
@@ -28,7 +28,7 @@ with open(csv_file_name, "w") as cf:
 
 with open(csv_file_name, "a") as csv_f:
     columns = ["name", "age"]
-    writer = csv.DictWriter(csv_f, fieldnames=columns)
+    writer = csv.DictWriter(csv_f, lineterminator='\n', fieldnames=columns)
 
     # row_1 = ["Vlas", 27]
 
