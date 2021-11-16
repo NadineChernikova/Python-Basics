@@ -98,6 +98,7 @@ print(new_users_list)
 
 
 with open(csv_file_name, "w") as cf:
-    writer = csv.writer(cf)
+    writer = csv.writer(cf, lineterminator='\n')
+
 
     writer.writerows(new_users_list)
